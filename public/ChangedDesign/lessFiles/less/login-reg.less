@@ -1,0 +1,56 @@
+@import "variable";
+#account-form{
+  margin-top: 8%;
+  #loginForm{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #dadada;
+    padding: 50px 10px;
+    box-shadow: 0 0 0 2px grey;
+    .remember-me{
+      color: @default-red;
+    }
+    .form-control{
+      text-align: center;
+      box-shadow: 0 0 2px 0 #24343d;
+      border-radius: 0;
+      height: 36px;
+    }
+    .form-control:focus{
+      height: 40px !important;
+      border-color: @default-red;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px @default-red;
+      outline: 0 none;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.64);
+    }
+    .btn-login{
+      background-color: @default-red;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+  #signupForm{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #dadada;
+    padding: 50px 10px;
+    box-shadow: 0 0 0 2px grey;
+    .form-control{
+      text-align: center;
+      box-shadow: 0 0 2px 0 #24343d;
+      border-radius: 0;
+      height: 36px;
+    }
+    .form-control:focus{
+      height: 40px !important;
+      border-color: @default-red;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px @default-red;
+      outline: 0 none;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.64);
+    }
+  }
+}
